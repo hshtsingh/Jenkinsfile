@@ -9,7 +9,7 @@ pipeline{
    stage('Build'){
    steps{
    echo 'Building jar files...'
-   bat 'mvn package'
+     bat 'python3 practice.py'
    }
   }
  }
